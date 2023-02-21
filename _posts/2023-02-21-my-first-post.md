@@ -1,19 +1,16 @@
 ---
 layout: default
-title:  "Welcome to Jekyll!"
-description: "Ornare quam viverra orci sagittis eu volutpat odio facilisis. Odio tempor orci dapibus ultrices in iaculis nunc sed augue. Volutpat lacus laoreet non curabitur. Placerat orci nulla pellentesque dignissim."
+title:  "First Post"
+substack: "https://felixalbani.substack.com/p/3136cdbd-cc3d-49aa-88e9-239ff47c218b"
+description: "Welcome to my blog! I'm excited to share with you that I'll be publishing new content once a week. "
 ---
 
-# Welcome
+# Welcome to my blog!
 
-**Hello world**, this is my first Jekyll blog post.
+Welcome to my blog! I'm excited to share with you that I'll be publishing new content once a week. I plan to share my perspectives on a variety of topics, mostly related to the technologies I'm working with, including my personal ideas, thoughts, and interests.
 
-I hope you like it!
+As someone who has always been passionate about technology, I've spent years working with some of the most exciting tools and platforms out there. Whether it's exploring the latest software developments, diving deep into new programming languages, or testing out emerging hardware, I'm always eager to share what I've learned with others.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Egestas sed tempus urna et pharetra. Sed velit dignissim sodales ut eu. Vitae semper quis lectus nulla at. Turpis massa tincidunt dui ut ornare. Velit sed ullamcorper morbi tincidunt. Et tortor consequat id porta nibh venenatis cras sed felis. Nam at lectus urna duis convallis. Nunc mi ipsum faucibus vitae aliquet nec. Montes nascetur ridiculus mus mauris vitae. Eget mauris pharetra et ultrices neque ornare. Mi quis hendrerit dolor magna eget est lorem. Odio morbi quis commodo odio aenean sed adipiscing. Vel quam elementum pulvinar etiam. Malesuada nunc vel risus commodo. Nunc lobortis mattis aliquam faucibus. Purus semper eget duis at. Cras ornare arcu dui vivamus arcu.
+My hope is that this blog will become a space where I can not only share my own experiences and insights, but also connect with others who share my love of technology. I'll be writing about a wide range of topics, from the latest trends in software development to my own personal projects and experiments. Along the way, I'll also be sharing my thoughts on some of the broader issues and challenges facing the tech industry, and exploring what it means to be a part of this exciting and ever-evolving field.
 
-Ornare quam viverra orci sagittis eu volutpat odio facilisis. Odio tempor orci dapibus ultrices in iaculis nunc sed augue. Volutpat lacus laoreet non curabitur. Placerat orci nulla pellentesque dignissim. Pharetra diam sit amet nisl. Venenatis tellus in metus vulputate eu scelerisque. Integer enim neque volutpat ac tincidunt vitae semper quis lectus. Hendrerit dolor magna eget est lorem. Platea dictumst quisque sagittis purus sit amet volutpat. Amet nisl suscipit adipiscing bibendum.
-
-Elit duis tristique sollicitudin nibh sit amet commodo nulla facilisi. Lorem ipsum dolor sit amet consectetur. Arcu odio ut sem nulla pharetra diam sit. In iaculis nunc sed augue. Adipiscing commodo elit at imperdiet dui accumsan sit amet nulla. Volutpat odio facilisis mauris sit amet massa vitae tortor. Ac odio tempor orci dapibus ultrices. Proin sed libero enim sed faucibus turpis in eu mi. Vitae turpis massa sed elementum tempus egestas sed sed. Penatibus et magnis dis parturient. Aenean pharetra magna ac placerat vestibulum lectus mauris ultrices eros.
-
-Vitae proin sagittis nisl rhoncus mattis rhoncus urna neque. Lacinia at quis risus sed vulputate odio ut enim. Scelerisque purus semper eget duis at tellus. Ut tellus elementum sagittis vitae et leo duis ut. Libero volutpat sed cras ornare arcu. Euismod nisi porta lorem mollis aliquam ut porttitor. Dictum varius duis at consectetur lorem donec massa sapien faucibus. Vitae auctor eu augue ut lectus arcu. Et leo duis ut diam quam nulla porttitor massa. Auctor elit sed vulputate mi sit. Dignissim enim sit amet venenatis urna cursus. Diam volutpat commodo sed egestas egestas fringilla phasellus. Lacinia quis vel eros donec. Quis hendrerit dolor magna eget est lorem ipsum. Magna ac placerat vestibulum lectus mauris. Tortor posuere ac ut consequat semper viverra nam libero justo. Et leo duis ut diam quam nulla porttitor massa.
+So if you're interested in staying up-to-date on the latest in tech, or just want to hear some fresh perspectives on the topics that matter to you, be sure to subscribe to my blog and stay tuned for my upcoming posts. I can't wait to share my thoughts with you!

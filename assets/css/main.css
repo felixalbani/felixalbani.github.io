@@ -109,12 +109,50 @@ a:active {
   color: #2867B2;
 }
 
-.post-item {
-  border-left: 1px solid #EEE; 
+.post {
+  font-family: 'Spectral', serif;
+  font-size: 1.5rem; /* 24px */
+  line-height: 2.25rem; /* 36px */
+  color: #878D8F;
+  text-align: justify;
+  text-justify: inter-word;
 }
 
-.post-item-title {
-  font-size: 2em;
-  color: #222;
+.post-title {
+  font-size: 1.25em;
+  color: #535B5E;
   font-weight: bold;
+}
+
+.post-meta {
+  font-size: 16px;
+  margin: 4px;
+}
+
+.post-description {
+  font-family: 'Spectral', serif;
+  font-size: 1.5rem; /* 24px */
+  line-height: 2.25rem; /* 36px */
+  color: #878D8F;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.post h1,h2,h3,h4,h5,h6 {
+  color: #535B5E !important;  
+}
+
+.post h1 {
+  font-size: 1.25em !important;  
+  font-weight: bold;  
+}
+
+.post h2 {
+  font-size: 1em;  
+  font-weight: bold;  
+}
+
+.post h3 {
+  font-size: 1em;  
+  font-style: italic;
 }
