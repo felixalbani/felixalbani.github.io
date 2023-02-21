@@ -36,10 +36,12 @@ jobs:
         with:
           source: ./
           destination: ./_site
-      - name: GitHub Pages
+      - name: Deploy to GitHub Pages
+        if: success()
         uses: crazy-max/ghaction-github-pages@v3
         with:
-          build_dir: ./_site/
+          target_branch: gh-pages
+          build_dir: _site
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
