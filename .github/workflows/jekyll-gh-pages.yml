@@ -11,9 +11,8 @@ on:
 
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
-  contents: write
+  contents: read
   pages: write
-  id-token: write
 
 # Allow one concurrent deployment
 concurrency:
@@ -35,15 +34,9 @@ jobs:
         uses: actions/jekyll-build-pages@v1
         with:
           source: ./
-          destination: ./_site                
-      - name: Deploy to GitHub Pages
-        if: success()
-        uses: crazy-max/ghaction-github-pages@v3
-        with:
-          target_branch: gh-pages
-          build_dir: _site
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          destination: ./_site
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v1
 
   # Deployment job
   deploy:
@@ -55,4 +48,4 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v1
+        uses: actions/deploy-pages@v1        
