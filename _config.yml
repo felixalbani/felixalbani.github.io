@@ -1,22 +1,9 @@
 url: ''
 baseurl: ''
-title: 'Jekyllwind'
-
-plugins:
-  - jekyll-postcss
+title: 'Felix Albani Blog'
 
 postcss:
   cache: false
 
 exclude:
   - package.json
-  - postcss.config.js
-  - tailwind.config.js
-  - yarn.lock
-
-sass:
-  load_paths:
-    - _sass
-    - node_modules
-
-include: ["node_modules/tailwindcss"]

@@ -1,25 +1,19 @@
----
----
-
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
 body {
   background-color: #fafafa;  
 }
 
 .landing_title {
     font-family: 'Spectral', serif;
-    @apply text-7xl;
+    font-size: 4.5rem; /* 72px */
+    line-height: 1;
     color: #535B5E;
     white-space:nowrap;
 }
 
 h1 {
     font-family: 'Spectral', serif;
-    font-size: 3rem;
-    line-height: 1;
+    font-size: 3rem !important;
+    line-height: 3.5rem;
     color: #535B5E;
     padding: 20px;
 }
@@ -27,7 +21,7 @@ h1 {
 h2 {
   font-family: 'Spectral', serif;
   font-size: 2rem;
-  line-height: 1;
+  line-height: 2.5rem;
   color: #535B5E;
   padding: 20px;
 }
@@ -39,7 +33,7 @@ h2 {
 
 p {
     font-family: 'Spectral', serif;
-    @apply text-2xl;
+    font-size: 1.5rem; /* 24px */
     line-height: 2.25rem; /* 36px */
     color: #878D8F;
     text-align: justify;
