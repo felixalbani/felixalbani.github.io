@@ -5,7 +5,7 @@ substack: "https://felixalbani.substack.com/p/3136cdbd-cc3d-49aa-88e9-239ff47c21
 description: "Welcome to my blog! I'm excited to share with you that I'll be publishing new content once a week. "
 ---
 
-# Welcome to my blog!
+# First Post!
 
 Welcome to my blog! I'm excited to share with you that I'll be publishing new content once a week. I plan to share my perspectives on a variety of topics, mostly related to the technologies I'm working with, including my personal ideas, thoughts, and interests.
 
