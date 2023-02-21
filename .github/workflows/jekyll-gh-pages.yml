@@ -36,8 +36,12 @@ jobs:
         with:
           source: ./
           destination: ./_site
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v1
+      - name: GitHub Pages
+        uses: crazy-max/ghaction-github-pages@v3
+        with:
+          build_dir: ./_site/
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
   # Deployment job
   deploy:
