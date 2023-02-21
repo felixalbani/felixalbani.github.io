@@ -69,7 +69,7 @@
           </li>
           <li class="mr-6 text-gray-300">|</li>
           {% endif %}
-          {% if page.url != '/about.html' %}            
+          {% if page.url == '/posts.html' or page.url == '/' %}            
           <li class="mr-6">
             <a class="text-base sm:text-xl text-blue-500 hover:text-blue-800" href="/about">About me</a>
           </li>
@@ -99,34 +99,34 @@
     </div>
 
     <footer class="pt-7">
-        <ul class="flex bg-gray-100 rounded-lg h-16 place-items-center p-10">
-          {% if page.url != '/' %}
-          <li class="mr-6">
-            <a class="text-base sm:text-xl text-blue-500 hover:text-blue-800" href="/">Home</a>
-          </li>
-          <li class="mr-6 text-gray-300">|</li>
-          {% endif %}
-          {% if page.url != '/posts.html' %}            
-          <li class="mr-6">
-            <a class="text-base sm:text-xl text-blue-500 hover:text-blue-800" href="/posts">Posts</a>
-          </li>
-          <li class="mr-6 text-gray-300">|</li>
-          {% endif %}
-          {% if page.url != '/about.html' %}            
-          <li class="mr-6">
-            <a class="text-base sm:text-xl text-blue-500 hover:text-blue-800" href="/about">About me</a>
-          </li>
-          <li class="mr-6 text-gray-300">|</li>
-          {% endif %}
-          <li class="mr-4">
-            <a href="https://felixalbani.substack.com" target="_blank" alt="Substack"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="#ff6719" d="M22.539 8.242H1.46V5.406h21.08v2.836zM1.46 10.812V24L12 18.11L22.54 24V10.812H1.46zM22.54 0H1.46v2.836h21.08V0z"/></svg></a>
-          </li>
-          <li>
-            <a href="https://www.linkedin.com/in/felixalbani/" target="_blank" alt="LinkedIn">
-              <img src="/assets/images/linkedin.png" alt="Follow me on LinkedIn" width="35">
-            </a>
-          </li>
-        </ul>
+      <ul class="flex bg-gray-100 rounded-lg h-16 place-items-center p-10">
+        {% if page.url != '/' %}
+        <li class="mr-6">
+          <a class="text-base sm:text-xl text-blue-500 hover:text-blue-800" href="/">Home</a>
+        </li>
+        <li class="mr-6 text-gray-300">|</li>
+        {% endif %}
+        {% if page.url != '/posts.html' %}            
+        <li class="mr-6">
+          <a class="text-base sm:text-xl text-blue-500 hover:text-blue-800" href="/posts">Posts</a>
+        </li>
+        <li class="mr-6 text-gray-300">|</li>
+        {% endif %}
+        {% if page.url == '/posts.html' or page.url == '/' %}            
+        <li class="mr-6">
+          <a class="text-base sm:text-xl text-blue-500 hover:text-blue-800" href="/about">About me</a>
+        </li>
+        <li class="mr-6 text-gray-300">|</li>
+        {% endif %}
+        <li class="mr-4">
+          <a href="https://felixalbani.substack.com" target="_blank" alt="Substack"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="#ff6719" d="M22.539 8.242H1.46V5.406h21.08v2.836zM1.46 10.812V24L12 18.11L22.54 24V10.812H1.46zM22.54 0H1.46v2.836h21.08V0z"/></svg></a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/felixalbani/" target="_blank" alt="LinkedIn">
+            <img src="/assets/images/linkedin.png" alt="Follow me on LinkedIn" width="35">
+          </a>
+        </li>
+      </ul>
       <div class="float-right text-gray-500 p-4">&copy; Felix Albani 2023</div>
     </footer>
   </div>
