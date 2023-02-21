@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicon-16x16.png">
+    <link rel="manifest" href="/assets/images/site.webmanifest">
+
+    <title>{{ page.title }} - {{ site.title }}</title>
+    <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Spectral&display=swap" rel="stylesheet">
+  </head>
+  <body class="container p-10 ">
+
+    <header class="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-1 xl:flex place-items-center pb-5">      
+      <div class="grid grid-cols-1 place-items-center lg:flex">
+        <div><a href="/"><img src="/assets/images/felixalbani_logo.png" alt="Felix Albani Logo" width="120"></a></div>
+        <div ><h1 class="landing_title">Felix Albani</h1></div>      
+      </div>      
+      <div class="lg:pt-5 xl:pt-0">
+        <ul class="flex bg-gray-100 rounded-lg h-16 place-items-center p-10">
+          {% if page.url != '/' %}
+          <li class="mr-6">
+            <a class="text-xl text-blue-500 hover:text-blue-800" href="/">Home</a>
+          </li>
+          <li class="mr-6 text-gray-300">|</li>
+          {% endif %}
+          {% if page.url != '/posts.html' %}            
+          <li class="mr-6">
+            <a class="text-xl text-blue-500 hover:text-blue-800" href="/posts">Posts</a>
+          </li>
+          <li class="mr-6 text-gray-300">|</li>
+          {% endif %}
+          {% if page.url != '/about.html' %}            
+          <li class="mr-6">
+            <a class="text-xl text-blue-500 hover:text-blue-800" href="/about">About me</a>
+          </li>
+          <li class="mr-6 text-gray-300">|</li>
+          {% endif %}
+          <li class="mr-2 text-gray-500"><span>follow me on:</span></li>
+          <li class="mr-4">
+            <a href="https://felixalbani.substack.com" target="_blank" alt="Substack"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="#ff6719" d="M22.539 8.242H1.46V5.406h21.08v2.836zM1.46 10.812V24L12 18.11L22.54 24V10.812H1.46zM22.54 0H1.46v2.836h21.08V0z"/></svg></a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/felixalbani/" target="_blank" alt="LinkedIn">
+              <img src="/assets/images/linkedin.png" alt="Follow me on LinkedIn" width="40">
+            </a>
+          </li>
+        </ul>
+      </div>
+    </header>
+
+    <main class="pb-5">
+      {{ content }}
+    </main>   
+    
+    <div class="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-1 xl:grid-cols-2 gap-10 place-items-center ">
+      <div class="call-to-action">
+        <p>If you enjoy my content and would like to support me, please consider subscribing to my Substack newsletter. You'll get exclusive access to my latest articles and updates.</p>
+        <iframe src="https://felixalbani.substack.com/embed" width="100%" height="320" style="border:1px solid #EEE; background:white;" frameborder="0" scrolling="no"></iframe>
+        <div ><p>I'm passionate about solving problems and creating solutions using the latest technologies. I enjoy playing soccer and running. I'm fond of horses and horseback jumping.</p></div>
+      </div>      
+      <!--
+      
+      -->
+      <div class="grid justify-items-center">
+        <img src="{{page.image}}" alt="Generated with MidJourjey" >
+      </div>
+    </div>
+
+    <footer class="pt-7">
+      <ul class="flex bg-gray-100 rounded-lg h-16 place-items-center p-10">        
+        {% if page.url != '/' %}
+        <li class="mr-6">
+          <a class="text-xl text-blue-500 hover:text-blue-800" href="/">Home</a>
+        </li>
+        <li class="mr-6 text-gray-300">|</li>
+        {% endif %}
+        {% if page.url != '/posts.html' %}            
+        <li class="mr-6">
+          <a class="text-xl text-blue-500 hover:text-blue-800" href="/posts">Posts</a>
+        </li>
+        <li class="mr-6 text-gray-300">|</li>
+        {% endif %}
+        {% if page.url != '/about.html' %}            
+        <li class="mr-6">
+          <a class="text-xl text-blue-500 hover:text-blue-800" href="/about">About me</a>
+        </li>
+        <li class="mr-6 text-gray-300">|</li>
+        {% endif %}
+        <li class="mr-2 text-gray-500"><span>follow me on:</span></li>
+        <li class="mr-4">
+          <a href="https://felixalbani.substack.com" target="_blank" alt="Substack"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="#ff6719" d="M22.539 8.242H1.46V5.406h21.08v2.836zM1.46 10.812V24L12 18.11L22.54 24V10.812H1.46zM22.54 0H1.46v2.836h21.08V0z"/></svg></a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/felixalbani/" target="_blank" alt="LinkedIn">
+            <img src="/assets/images/linkedin.png" alt="Follow me on LinkedIn" width="40">
+          </a>
+        </li>
+      </ul>
+      <div class="float-right text-gray-500 p-4">&copy; Felix Albani 2023</div>
+    </footer>
+  </div>
+  </body>
+</html>
