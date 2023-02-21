@@ -1,7 +1,7 @@
 ---
 layout: default
 title:  "First Post"
-substack: "https://felixalbani.substack.com/p/3136cdbd-cc3d-49aa-88e9-239ff47c218b"
+substack: "https://felixalbani.substack.com/p/welcome-to-my-blog"
 description: "Welcome to my blog! I'm excited to share with you that I'll be publishing new content once a week. "
 ---
 
