@@ -37,14 +37,14 @@ p {
     line-height: 2.25rem; /* 36px */
     color: #878D8F;
     text-align: justify;
-    text-justify: inter-word;
+    text-justify: auto;
     padding: 20px;
 }
 
 blockquote{
     display:block;
     background: #fff;
-    padding: 15px 20px 15px 45px;
+    padding: 10px 10px 10px 10px;
     margin: 0 0 20px;
     position: relative;
     
