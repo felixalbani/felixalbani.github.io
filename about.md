@@ -14,7 +14,7 @@ Later on, I became a Solution Architect, which allowed me to apply my technical 
 
 As I progressed in my career, I became increasingly interested in automation and innovation, which led me into management. As a manager, I've been able to leverage my technical knowledge and customer-oriented mindset to drive innovation and continuous improvement in my organization.
 
-> Fun fact: In 2011 I founded a digital newspaper that covered local news in the city of San Martin, Mendoza, Argentina
+> Fun fact: In 2009 I founded a digital newspaper that covered local news in the city of San Martin, Mendoza, Argentina
 
 Through this blog, I hope to share my insights and experiences with others who are passionate about the IT industry. Whether you're a developer, a manager, or just someone who's interested in learning more about the field, I hope that my posts will provide you with valuable insights and inspiration. Thank you for visiting, and I look forward to connecting with you!
 
