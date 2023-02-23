@@ -14,7 +14,7 @@ h1 {
     font-family: 'Spectral', serif;
     font-size: 3rem !important;
     line-height: 3.5rem;
-    color: #535B5E;
+    color: #444444;
     padding: 20px;
 }
 
@@ -32,10 +32,10 @@ h2 {
 }
 
 p {
-    font-family: 'Spectral', serif;
+    font-family: 'Plus Jakarta Sans', sans-serif;
     font-size: 1.5rem; /* 24px */
     line-height: 2.25rem; /* 36px */
-    color: #878D8F;
+    color: #505050;
     text-align: justify;
     text-justify: auto;
     padding: 20px;
@@ -113,27 +113,37 @@ a:active {
   font-family: 'Spectral', serif;
   font-size: 1.5rem; /* 24px */
   line-height: 2.25rem; /* 36px */
-  color: #878D8F;
+  color: #505050;
   text-align: justify;
-  text-justify: inter-word;
+  text-justify: auto;
 }
 
 .post-title {
   font-size: 1.25em;
-  color: #535B5E;
+  color: #444444;
   font-weight: bold;
 }
 
 .post-meta {
+  font-family: 'Plus Jakarta Sans', sans-serif;
   font-size: 16px;
   margin: 4px;
+  border-left: 4px solid #cccccc;
+  color: #cccccc;
+  padding-left: 10px;  
+}
+
+.post-action {
+  color: #2867B2;
+  font-weight: bold;
+  font-size: medium;
 }
 
 .post-description {
-  font-family: 'Spectral', serif;
+  font-family: 'Plus Jakarta Sans', sans-serif;
   font-size: 1.5rem; /* 24px */
   line-height: 2.25rem; /* 36px */
-  color: #878D8F;
+  color: #505050;
   text-align: justify;
   text-justify: inter-word;
 }

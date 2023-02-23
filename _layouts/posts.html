@@ -96,25 +96,23 @@
       </div>
     </header>
 
-    <main class="pb-5">
-      {{ content }}
-    </main>   
+
     
     <div class="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-1 xl:grid-cols-2 gap-10 place-items-left ">
-      <div class="call-to-action">
-        <p>If you enjoy my content and would like to support me, please consider subscribing to my Substack newsletter. You'll get exclusive access to my latest articles and updates.</p>
-        <iframe src="https://felixalbani.substack.com/embed" width="100%" height="320" style="border:1px solid #EEE; background:white;" frameborder="0" scrolling="no"></iframe>
-        <div ><p>I'm passionate about solving problems and creating solutions using the latest technologies. I enjoy playing soccer and running. I'm fond of horses and horseback jumping.</p></div>
-      </div>      
-      <!--
-      
-      -->
-      <div class="grid justify-items-center">
-        <img src="{{page.image}}" alt="Generated with MidJourjey" >
-      </div>
+        <main >
+            {{ content }}
+            <div class="call-to-action">
+                <iframe src="https://felixalbani.substack.com/embed" width="100%" height="320" style="border:1px solid #EEE; background:white;" frameborder="0" scrolling="no"></iframe>
+            </div>
+        </main>   
+        <div class="flex xl:grid"> 
+            <div class="pt-0 xl:pt-10">
+                <img src="{{page.image}}" alt="Generated with MidJourjey" >
+            </div>           
+        </div>
     </div>
 
-    <footer class="pt-7">
+    <footer class="pt-5">
       <ul class="flex bg-gray-100 rounded-lg h-16 place-items-center p-10">
         {% if page.url != '/' %}
         <li class="mr-6">
