@@ -6,9 +6,9 @@ image: "/assets/images/horse_jumping_ai.png"
 
 # Posts
 
-<ul class="post-list p-5 bg-gray-100 rounded-lg mb-10">
+<ul class="post-list p-3 pl-5 pr-5 bg-gray-100 rounded-lg mb-5">
   {% for post in site.posts %}
-    <li class="pb-10">     
+    <li>     
     <div class="post">
         <ul class="flex h-12 place-items-center">
         <li class="pr-4 text-gray-500 post-meta">{{post.date | date: "%b %d, %Y"}}</li>

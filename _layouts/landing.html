@@ -13,8 +13,21 @@
     <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital@1&family=Spectral&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans&family=Spectral&display=swap" rel="stylesheet">
     <script src="https://cdn.tailwindcss.com"></script>
+    <style type="text/tailwindcss">
+      @layer base {
+       
+        h1 {
+          @apply text-3xl lg:text-5xl !important;
+          line-height: 3.5rem !important;
+        }
+        p {
+          @apply text-xl lg:text-2xl !important;
+          line-height: 2.5rem !important; /* 36px */
+        }
+      }
+      </style>
     <script>
       tailwind.config = {
         content: [
